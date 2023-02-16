@@ -1,14 +1,17 @@
 /* Extra small devices (phones, 600px and dowv cn) */
 @media only screen and (max-width: 600px) {
       body{ 
-         background-color: lightblue;
-         background-image: url("img/Port_of_New_1.jpeg");
-         background-size: cover;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
+         background-color: rgb(105, 188, 239);
+
         }
 
-
+        #background{
+            position: fixed;
+            width: 100%;
+            height: auto;
+            z-index: -1;
+            bottom: 10%;
+        }
 
             /* Bridges */
         h1{
@@ -30,8 +33,10 @@
 
         .bridges h2{
             text-align: center;
-            color: white;
+            color: rgb(0, 0, 0);
             font-size: 2em;
+            text-shadow: 2px 2px 4px white;
+
         }
 
 
@@ -48,8 +53,9 @@
         }
         .Tunnels h2{
             text-align: center;
-            color: white;
+            color: rgb(0, 0, 0);
             font-size: 2em;
+            text-shadow: 2px 2px 4px white;
         }
 
 
@@ -69,13 +75,56 @@
 
         /* TOll PRICE */
         #warning{
-            color: rgb(211, 33, 33);
+            color: rgb(255, 0, 0);
             font-size: 0.5em;
-            text-shadow: 2px 2px 4px white;
+            text-shadow: 2px 2px 4px black;
 
         }
-        span{
+        #price{
             color: rgb(0, 255, 0);
             text-align: center;
+            border: 1px solid rgb(113, 113, 113);
+            background-color: rgba(0, 0, 0, 0.552);
+
         }
+
+ 
+        #line{
+            border: 1px solid rgba(0, 0, 0, 0.469);
+        }
+
+        .fa-circle-left{
+            position: absolute;
+            float: left;
+            color: white;
+            font-size: 2em;
+            left: 5%;
+        }
+        .fa-circle-left:hover{
+            color: rgb(0, 30, 255);
+            cursor: pointer;
+        }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        display: none;
+    }
+
 }
