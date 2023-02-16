@@ -2,12 +2,15 @@
 @media only screen and (max-width: 600px) {
     body{
         background-color: black;
-        background-image: url("img/51662390653_f326922ff5_k copy.png");
-        background-size: cover;
-        background-repeat:no-repeat;
-        background-attachment: fixed;
+
     }
-}
+
+    #background{
+        height: auto;
+        width: 100%;
+        position: absolute;
+         position: fixed;
+    }
 
 h1{
     text-align: center;
@@ -16,8 +19,24 @@ h1{
     font-size: 2em;
     text-shadow: 2px 2px 4px white;
 }
-.fa-solid {
+.fa-circle-left{
+    position: absolute;
+    float: left;
+    color: white;
+    font-size: 2em;
+    left: 5%;
+}
+.fa-circle-left:hover{
+    color: red;
+    cursor: pointer;
+}
+.fa-bridge {
     padding-left: 20px;
+    color: blue;
+}
+.fa-solid:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .mta{
@@ -63,3 +82,26 @@ ul li{
     border: 2px solid white;
 }
 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        display: none;
+    }
+
+}
