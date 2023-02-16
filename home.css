@@ -1,0 +1,70 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        border: 3px solid gold;
+        height: auto;
+        border-radius: 50px;
+        }
+        
+        h1{
+            text-align: center;
+            color: white;
+        }
+        h3{ 
+            text-align: center;
+            color: yellow;
+        }
+        
+        .Tolls{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        
+            top: 20px;
+        
+        }
+        
+        .MTA{
+           border: 2px solid white;
+           border-radius: 10px;
+           background-color: black;
+           color: white;
+           margin-bottom: 20px;
+           padding: 20px;
+        }
+        
+        .MTA:hover{
+            border: 2px solid red;
+        }
+        
+        
+        
+        
+        .Port-Authority{
+            border: 2px solid white;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .Port-Authority:hover{
+            border: 2px solid red;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}

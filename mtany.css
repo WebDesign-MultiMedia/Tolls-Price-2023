@@ -1,0 +1,65 @@
+/* Extra small devices (phones, 600px and dowv cn) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: black;
+        background-image: url("img/51662390653_f326922ff5_k copy.png");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px white;
+}
+.fa-solid {
+    padding-left: 20px;
+}
+
+.mta{
+    text-align: center;
+    top: 10vw;
+    position: relative;
+}
+
+.mta h3{
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+ul li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    font-size: 1.6em;
+    border: 1px solid rgb(78, 75, 75);
+    background-color: rgba(0, 0, 0, 0.74);
+
+}
+
+
+#pay{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 55px;
+    text-decoration: none;
+    color: rgb(230, 0, 0);
+    cursor: pointer;
+    font-size: 1.2em;
+    border: 2px solid red;
+    width: 20%;
+}
+
+#pay:hover{
+    color: white;
+    background-color: rgb(230, 0, 0);
+    border: 2px solid white;
+}
+
