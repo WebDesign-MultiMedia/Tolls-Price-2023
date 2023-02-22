@@ -1,109 +1,95 @@
 /* Extra small devices (phones, 600px and dowv cn) */
 @media only screen and (max-width: 600px) {
       body{ 
-         background-color: rgb(105, 188, 239);
-
+         background-color: rgba(0, 0, 0, 0.783);
         }
 
-        #background{
-            position: fixed;
-            width: 100%;
-            height: auto;
-            z-index: -1;
-            bottom: 10%;
-        }
-
-            /* Bridges */
         h1{
             text-align: center;
+            position: relative;
+            display: inline-flex;
+            left: 10vw;
+            top: 5vw;
             font-size: 3em;
-            color: blue;
-            text-shadow: 2px 2px 1px white;
+            color: rgb(23, 23, 219);
+            text-shadow: 1px 1px 2px rgb(235, 235, 235);
         }
+
+
+        .fa-circle-left{
+            position: fixed;
+            float: left;
+            color: rgba(27, 25, 25, 0.697);
+            font-size: 2em;
+            left: 2vw;
+        }
+        .fa-circle-left:hover{
+            color: rgba(0, 30, 255, 0.844);
+            cursor: pointer;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 3em;
+            color: rgb(0, 0, 0);
+            text-shadow: -1px 1px 3px white;
+        }
+        #warning{
+            font-size: 1.4em;
+            color: rgba(212, 33, 33, 0.831);
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+            font-weight: bolder;
+            position: relative;
+            display: inline-flex;
+            text-align: center;
+            left: 20%;
+        }
+
         .bridges{
             display: flex;
-            justify-content: center;
             flex-direction: column;
             align-items: center;
-            font-size: 1.2em;
-            background-color: rgba(44, 47, 175, 0.441);
-            text-align: center;
-
+            font-size: 1em;
         }
-
-        .bridges h2{
-            text-align: center;
-            color: rgb(0, 0, 0);
-            font-size: 2em;
-            text-shadow: 2px 2px 4px white;
-
-        }
-
-
-        /* Tunnels */
 
         .Tunnels{
             display: flex;
-            justify-content: center;
             flex-direction: column;
             align-items: center;
-            font-size: 1.2em;
-            background-color: rgba(44, 47, 175, 0.441);
-            text-align: center;
+            bottom: 0;
         }
-        .Tunnels h2{
+        h3{
             text-align: center;
-            color: rgb(0, 0, 0);
+            position: relative;
+            bottom: 10vw;
+            
+        }
+        p{
+            text-align: center;
+            position: relative;
+            bottom: 13vw;
             font-size: 2em;
-            text-shadow: 2px 2px 4px white;
-        }
+            bottom: 15vw;
+            color: rgb(18, 86, 202); 
+            text-shadow: 1px 1px 3px black;
+            font-weight: bolder;
+               }
 
-
-            /* LINK */
-        
-        a{
+        h3 a{
             text-decoration: none;
-            cursor: pointer;
-            color: rgb(255, 255, 255);
-            font-size:  1.2em;
+            font-size: 1.7em;
+            color: rgb(206, 202, 202);
+            text-shadow: 1px 1px 4px black;
         }
-        a:hover{
-            cursor: pointer;
-            color: blue;
-
-        }
-
-        /* TOll PRICE */
-        #warning{
-            color: rgb(255, 0, 0);
-            font-size: 0.5em;
-            text-shadow: 2px 2px 4px black;
-
-        }
-        #price{
-            color: rgb(0, 255, 0);
-            text-align: center;
-            border: 1px solid rgb(113, 113, 113);
-            background-color: rgba(0, 0, 0, 0.552);
-
-        }
-
- 
-        #line{
-            border: 1px solid rgba(0, 0, 0, 0.469);
-        }
-
-        .fa-circle-left{
-            position: absolute;
-            float: left;
-            color: white;
-            font-size: 2em;
-            left: 5%;
-        }
-        .fa-circle-left:hover{
-            color: rgb(0, 30, 255);
+        h3 a:hover{
+            color: aqua;
             cursor: pointer;
         }
+
+
 }
 
 
