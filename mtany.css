@@ -1,103 +1,48 @@
 /* Extra small devices (phones, 600px and dowv cn) */
 @media only screen and (max-width: 600px) {
     body{
-        background-color: rgba(0, 0, 0, 0.611);
+        background-color: rgb(0, 77, 100);
 
     }
 
-    #background{
-        height: auto;
-        width: 100%;
-        position: absolute;
-         position: fixed;
+    h1{
+        text-align: center;
+    }
+    h3 a{
+        color: rgb(255, 255, 255);
+    }
+    .fa-solid {
+        padding-left: 20px;
     }
 
-    #links{
-        text-decoration: none;
-        color: rgba(247, 247, 247, 0.897);
-        text-shadow: 2px 2px 1px rgb(7, 7, 7);
+
+
+
+    .mta{
+        position: relative;
+        text-align: center;
     }
+
+    ul li{
+        position: relative;
+        list-style-type: none;
+        text-align: center;
+        text-transform:uppercase;
+    }
+
     #links:hover{
-        cursor: pointer;
-        color: blue;
-        text-shadow: 2px 2px 4px white;
+        color: rgb(31, 7, 167);
+    }
+    .fa-circle-left{
+        color: white;
+        position: relative;
+        top: 10px;
+        font-size: 1.4em;
+    }
+    .fa-circle-left:hover{
+        color:rgb(31, 7, 167); ;
     }
 
-h1{
-    text-align: center;
-    position: relative;
-    top: 10vw;
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px white;
-}
-.fa-circle-left{
-    position: absolute;
-    float: left;
-    color: rgba(255, 255, 255, 0.478);
-    font-size: 2em;
-    left: 5%;
-}
-.fa-circle-left:hover{
-    color: rgba(13, 0, 255, 0.593);
-    cursor: pointer;
-}
-.fa-bridge {
-    padding-left: 20px;
-    color: blue;
-}
-.fa-bridge:hover{
-    color: red;
-    cursor: pointer;
-}
-
-.mta{
-    text-align: center;
-    top: 10vw;
-    position: relative;
-}
-
-.mta h3{
-    font-size: 2em;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-}
-
-ul li{
-    color: rgb(255, 255, 255);
-    list-style-type: none;
-    font-size: 1.6em;
-    border: 1px solid rgb(78, 75, 75);
-    max-width: 50vw;
-    display: inline-flex;
-    background-color: rgba(0, 0, 0, 0.74);
-
-}
-
-
-#pay{
-    text-align: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 16vw;
-    text-decoration: none;
-    color: rgb(230, 0, 0);
-    cursor: pointer;
-    font-size: 2em;
-    border: 2px solid red;
-    left: 100px;
-    width: 60vw;
-    height: 10vw;
-    padding-bottom: 20px;
-    
-}
-
-#pay:hover{
-    color: white;
-    background-color: rgb(230, 0, 0);
-    border: 2px solid white;
-}
 
 }
 

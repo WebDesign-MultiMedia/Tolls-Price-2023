@@ -1,95 +1,55 @@
 /* Extra small devices (phones, 600px and dowv cn) */
 @media only screen and (max-width: 600px) {
       body{ 
-         background-color: rgba(0, 0, 0, 0.783);
+         background-color: rgb(12, 0, 66);
+        }
+        .fa-circle-left{
+            color: white;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            font-size: 1.5em;
+        }
+        .fa-circle-left:hover{
+            color: red;
+        }
+
+        .warning{
+            display: flex;
+            justify-content: center;
+            color: red;
+            border: 1px dotted red;
+            position: relative;
         }
 
         h1{
             text-align: center;
-            position: relative;
-            display: inline-flex;
-            left: 10vw;
-            top: 5vw;
-            font-size: 3em;
-            color: rgb(23, 23, 219);
-            text-shadow: 1px 1px 2px rgb(235, 235, 235);
+            color: white;
         }
-
-
-        .fa-circle-left{
-            position: fixed;
-            float: left;
-            color: rgba(27, 25, 25, 0.697);
-            font-size: 2em;
-            left: 2vw;
-        }
-        .fa-circle-left:hover{
-            color: rgba(0, 30, 255, 0.844);
-            cursor: pointer;
-            text-shadow: 1px 1px 3px black;
-        }
-
         h2{
             text-align: center;
-            font-size: 3em;
-            color: rgb(0, 0, 0);
-            text-shadow: -1px 1px 3px white;
-        }
-        #warning{
-            font-size: 1.4em;
-            color: rgba(212, 33, 33, 0.831);
-            font-style: italic;
-            font-family: 'Courier New', Courier, monospace;
-            text-decoration: underline;
-            font-weight: bolder;
-            position: relative;
-            display: inline-flex;
-            text-align: center;
-            left: 20%;
-        }
-
-        .bridges{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-size: 1em;
-        }
-
-        .Tunnels{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            bottom: 0;
-        }
-        h3{
-            text-align: center;
-            position: relative;
-            bottom: 10vw;
-            
-        }
-        p{
-            text-align: center;
-            position: relative;
-            bottom: 13vw;
+            color: white;
             font-size: 2em;
-            bottom: 15vw;
-            color: rgb(18, 86, 202); 
-            text-shadow: 1px 1px 3px black;
-            font-weight: bolder;
-               }
-
-        h3 a{
-            text-decoration: none;
-            font-size: 1.7em;
-            color: rgb(206, 202, 202);
-            text-shadow: 1px 1px 4px black;
-        }
-        h3 a:hover{
-            color: aqua;
-            cursor: pointer;
         }
 
+      h3, a{
+        color: red;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      h3, a:hover{
+        color: white;
+      }
+       #price{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
 
+    }
 }
 
 
